@@ -1,0 +1,77 @@
+body {
+	background: url(back_exp.jpg) no-repeat;
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+
+header {
+	background-image: url(banniere_experience.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	width: 1200px;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 20px;
+}
+header h1 {
+	padding-top: 400px;
+}
+
+* {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 50px;
+	color: #FFF2C9;
+}
+
+.contenue_experience p {
+	font-family: 'Graduate', cursive;
+	color: #C6D4C7;
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 500px;
+	width: 800px;
+}
+
+
+
+button {
+	background-color: purple;
+	border-radius: 10px;
+	height: 45px;
+	font-size: 25px;
+	font-weight: bold;
+
+		}
+
+	button:hover {
+		background-color: red;
+	}
+
+button {
+	margin-right: 20px;
+	color: green;
+}
+
+li {
+	 float: left;
+	 
+}
+
+.liste {
+list-style: none;
+font-size: 25px;
+}
+
+footer {
+	display: inline-block ;
+}
+	
+lol
+mouahahahaa

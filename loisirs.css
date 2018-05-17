@@ -1,0 +1,78 @@
+body {
+	background: url(back_loisirs.jpg) no-repeat;
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+
+header {
+	background-image: url(banniere_loisirs.jpg);
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 800px;
+	margin: auto;
+	border-radius: 20px;
+}
+
+
+* {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 50px;
+	color: #5EB6DD;
+}
+
+.contenue_loisirs p {
+	font-family: 'Graduate', cursive;
+	color: #E1E6FA;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+
+button {
+	background-color: blue;
+	border-radius: 10px;
+	height: 45px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 20px;
+	color: white;
+
+		}
+
+	button:hover {
+		background-color: black;
+		color: white;
+	}
+
+
+li {
+	 float: left;
+	 
+}
+
+.liste {
+list-style: none;
+font-size: 25px;
+}
+
+footer {
+	display: inline-block ;
+}
+	
+.stats img {
+	width: 80px;
+	height: 80px;
+	margin-left: 20px;
+}
+
+.stats h2 {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 30px;
+	color: #5EB6DD;
+}

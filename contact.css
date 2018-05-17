@@ -1,0 +1,90 @@
+body {
+	background: url(back_contact.jpg) no-repeat;
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+
+header {
+	background-image: url(contact.png);
+	height: 500px;
+	width: 1300px;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 20px;
+}
+
+
+* {
+	text-align: center;
+}
+
+header h1 {
+	font-family: 'Graduate', cursive;
+	font-size: 50px;
+	color: black;
+	padding-top: 400px;
+
+}
+
+.contenue_contact p {
+	font-family: 'Graduate', cursive;
+	color: #E1E6FA;
+	font-size: 25px;
+	font-weight: bold;
+	background: #616161;
+	width: 1000px;
+	margin: 50px auto;
+	border-radius: 20px;
+
+
+}
+
+
+
+
+button {
+	background-color: blue;
+	border-radius: 10px;
+	height: 45px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-right: 20px;
+	color: white;
+	
+
+		}
+
+	button:hover {
+		background-color: black;
+		color: white;
+
+	}
+
+
+li {
+	 float: left;
+	 
+}
+
+.liste {
+list-style: none;
+font-size: 25px;
+}
+
+footer {
+	display: inline-block ;
+}
+	
+.stats img {
+	width: 80px;
+	height: 80px;
+	margin-left: 20px;
+}
+
+.stats h2 {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 30px;
+	color: #5EB6DD;
+}lol
+mouahahahaa

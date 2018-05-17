@@ -1,0 +1,79 @@
+body {
+	background: url(back_etude.jpg) no-repeat;
+}
+
+header {
+	background-image: url(etude.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 500px;
+	width: 1300px;
+	margin: auto;
+
+	border-radius: 20px;
+}
+header h1 {
+	padding-top: 180px;
+}
+
+* {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 50px;
+	color: #7D0000;
+}
+
+.contenue_etude p {
+	font-family: 'Gochi Hand', cursive;
+	color: #7D0000;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.contenue_diplomes h2 {
+		font-family: 'Gochi Hand', cursive;
+	font-size: 50px;
+	color: #7D0000;
+}
+
+.contenue_diplomes p {
+	font-family: 'Gochi Hand', cursive;
+	color: #7D0000;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+button {
+	background-color: purple;
+	border-radius: 10px;
+	height: 45px;
+	font-size: 25px;
+	font-weight: bold;
+
+		}
+
+	button:hover {
+		background-color: red;
+	}
+
+button {
+	margin-right: 20px;
+	color: green;
+}
+
+li {
+	 float: left;
+	 
+}
+
+.liste {
+list-style: none;
+font-size: 25px;
+}
+
+footer {
+	display: inline-block ;
+}

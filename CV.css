@@ -1,0 +1,89 @@
+body {
+	background-image: url(dev.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 1920px 1080px;
+	display: flex;
+	flex-direction: column;
+	}
+
+#photo_identité {
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+header h1 {
+	font-family: 'Graduate', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: #01B0F0;
+
+
+
+}
+
+header h2 {
+	font-family: 'Graduate', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: red;
+	background: #535353;
+	width: 500px;
+	margin: auto;
+	border-radius: 20px;
+}
+
+header p {
+	float: right;
+	font-size: 30px;
+	margin-right: 40px;
+}
+
+div {
+	border-style: solid;
+}
+
+header p {
+	color: red;
+	font-family: 'Risque', cursive;
+}
+
+.liste {
+	list-style: none;
+	font-size: 25px;
+}
+
+button {
+	background-color: purple;
+	border-radius: 10px;
+	height: 45px;
+	font-size: 25px;
+	font-weight: bold;
+
+		}
+
+	button:hover {
+		background-color: green;
+	}
+
+.liste a {
+	color: #6EDC01;
+	text-decoration: none;
+}
+
+nav {
+	align-self: flex-end;
+	margin-top: 150px;
+}
+
+button {
+	margin-right: 20px;
+	color: white;
+}
+
+li {
+	 float: left;
+	 
+	}lol
+mouahahahaa
