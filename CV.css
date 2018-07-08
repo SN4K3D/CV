@@ -1,8 +1,32 @@
+@keyframes rotation {
+	from {	  transform: rotateX(0deg);}
+	to{transform: rotateX(360deg);}
+}
+@keyframes bounce{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
+
+
 body {
 	background-image: url(dev.jpeg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 1920px 1080px;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	}
@@ -18,9 +42,6 @@ header h1 {
 	font-size: 50px;
 	text-align: center;
 	color: #01B0F0;
-
-
-
 }
 
 header h2 {
@@ -75,6 +96,11 @@ button {
 nav {
 	align-self: flex-end;
 	margin-top: 150px;
+	animation-name: bounce;
+	animation-duration: 450ms;
+  	animation-timing-function: linear;
+  	animation-fill-mode: forwards;
+
 }
 
 button {
@@ -82,8 +108,43 @@ button {
 	color: white;
 }
 
-li {
+.liste li {
 	 float: left;
 	 
-	}lol
-mouahahahaa
+	}
+
+button:hover {transform:scale(1.2);}
+
+button:focus {
+	animation-name: rotation;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	
+	}
+#realisation {
+	text-align: center;
+	width: 24%;
+	font-family: 'Graduate', cursive;
+	font-size: 30px;
+	color: #01B0F0;
+	margin-right: 17%;
+	margin-top: 10%;
+	background: #535353;
+	border-radius: 15px;
+}
+
+.realisation ul li{
+	margin-right: 13%;
+	margin-top: 3%;
+	list-style: none;
+	font-size: 25px;
+}
+.realisation a{
+	background: black;
+	color: white;
+	font-family: 'Risque', cursive;
+	border-radius:10px;
+}
+.realisation {
+	border-style: none;
+}

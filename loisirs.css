@@ -1,6 +1,30 @@
+@keyframes rotation {
+	from {	  transform: rotateX(0deg);}
+	to{transform: rotateX(360deg);}
+}
+
+@keyframes bounce{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
+
 body {
 	background: url(back_loisirs.jpg) no-repeat;
-	background-size: 1920px 1080px;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -62,17 +86,37 @@ font-size: 25px;
 }
 
 footer {
-	display: inline-block ;
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	animation-name: bounce;
+	animation-duration: 450ms;
+  	animation-timing-function: linear;
+  	animation-fill-mode: forwards;
+  	padding-bottom: 70px;
 }
 	
 .stats img {
 	width: 80px;
 	height: 80px;
 	margin-left: 20px;
+		animation-name: bounce;
+  animation-duration: 450ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 .stats h2 {
 	font-family: 'Gochi Hand', cursive;
-	font-size: 30px;
+	font-size: 50px;
 	color: #5EB6DD;
 }
+
+button:hover {transform:scale(1.2);}
+
+button:focus {
+	animation-name: rotation;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	
+	}

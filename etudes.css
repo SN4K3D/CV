@@ -1,3 +1,39 @@
+@keyframes rotation {
+	from {	  transform: rotateX(0deg);}
+	to{transform: rotateX(360deg);}
+}
+
+@keyframes star-wars {
+	from {font-size: 0px;}
+	to {font-size: 40px;}
+	
+}
+
+@keyframes livre {
+	from {width: 0px;}
+	to {width: 1300px;}
+}
+
+@keyframes bounce{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
+
+
 body {
 	background: url(back_etude.jpg) no-repeat;
 }
@@ -9,8 +45,9 @@ header {
 	height: 500px;
 	width: 1300px;
 	margin: auto;
-
 	border-radius: 20px;
+	animation-name: livre;
+	animation-duration: 4s;
 }
 header h1 {
 	padding-top: 180px;
@@ -26,28 +63,55 @@ h1 {
 	color: #7D0000;
 }
 
-.contenue_etude p {
+.contenue_etude {
 	font-family: 'Gochi Hand', cursive;
 	color: #7D0000;
 	font-size: 40px;
 	font-weight: bold;
+	background: #B7E3DD;
+    padding: 10px;
+    border: 5px solid #764f6f;
+    position: relative;
+    margin: 10% auto;
+    width: 50%;
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 10px;
+	
 }
 
 .contenue_diplomes h2 {
-		font-family: 'Gochi Hand', cursive;
-	font-size: 50px;
+	font-family: 'Gochi Hand', cursive;
 	color: #7D0000;
+	animation-name: star-wars;
+	animation-duration: 6s;
+	font-size: 50px;
 }
 
-.contenue_diplomes p {
+.contenue_etude h2, .certification h2 {
+	font-family: 'Gochi Hand', cursive;
+	color: #7D0000;
+	animation-name: star-wars;
+	animation-duration: 6s;
+	font-size: 50px;
+}
+
+.contenue_diplomes, .certification  {
 	font-family: 'Gochi Hand', cursive;
 	color: #7D0000;
 	font-size: 40px;
 	font-weight: bold;
+	background: #B7E3DD;
+    padding: 10px;
+    border: 5px solid #764f6f;
+    position: relative;
+    margin: 10% auto;
+    width: 50%;
+    box-shadow: 0px 0px 20px #000;
+    border-radius: 10px;
 }
 
 button {
-	background-color: purple;
+	background-color: #3B0405;
 	border-radius: 10px;
 	height: 45px;
 	font-size: 25px;
@@ -61,7 +125,7 @@ button {
 
 button {
 	margin-right: 20px;
-	color: green;
+	color: #01B0F0;
 }
 
 li {
@@ -75,5 +139,55 @@ font-size: 25px;
 }
 
 footer {
-	display: inline-block ;
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	animation-name: bounce;
+	animation-duration: 450ms;
+  	animation-timing-function: linear;
+  	animation-fill-mode: forwards;
+  	padding-bottom: 70px;
+
 }
+
+button:hover {transform:scale(1.2);}
+
+button:focus {
+	animation-name: rotation;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	
+	}
+
+#overlay {
+	display: none;
+    position: fixed;
+    top:0; 
+    right:0; 
+    bottom:0; 
+    left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#overlay2, #overlay3 {
+	display: none;
+    position: fixed;
+    top:0; 
+    right:0; 
+    bottom:0; 
+    left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#overlay:target, #overlay2:target, #overlay3:target {
+	display:block;
+}
+
+#diplomes, #etudes, #certification {
+	font-family: 'Gochi Hand', cursive;
+	color: brown;
+	font-size: 60px;
+}
+
