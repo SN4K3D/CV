@@ -66,7 +66,7 @@ h1 {
 .contenue_etude {
 	font-family: 'Gochi Hand', cursive;
 	color: #7D0000;
-	font-size: 40px;
+	font-size: 25px;
 	font-weight: bold;
 	background: #B7E3DD;
     padding: 10px;
@@ -84,7 +84,7 @@ h1 {
 	color: #7D0000;
 	animation-name: star-wars;
 	animation-duration: 6s;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .contenue_etude h2, .certification h2 {
@@ -92,13 +92,13 @@ h1 {
 	color: #7D0000;
 	animation-name: star-wars;
 	animation-duration: 6s;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 .contenue_diplomes, .certification  {
 	font-family: 'Gochi Hand', cursive;
 	color: #7D0000;
-	font-size: 40px;
+	font-size: 25px;
 	font-weight: bold;
 	background: #B7E3DD;
     padding: 10px;
@@ -139,7 +139,7 @@ font-size: 25px;
 }
 
 footer {
-	width: 1300px;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	animation-name: bounce;

@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Envoie de mail</title>
-	<link rel="icon" type="image/png" href="./photo_romain.jpg" sizes="16x16"> 
-</head>
-<body>
 	<?php
 		if(isset ($_POST["user_name"]) and isset($_POST["user_email"]) and isset($_POST["user_message"]))
 		{
@@ -26,6 +18,3 @@
 			echo "<p>Impossible d'envoyer le mail , veuillez recommencer !</p>";
 		}
 	?>
-
-</body>
-</html>

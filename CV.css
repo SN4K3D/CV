@@ -100,7 +100,7 @@ nav {
 	animation-duration: 450ms;
   	animation-timing-function: linear;
   	animation-fill-mode: forwards;
-
+  	margin-bottom: 5%;
 }
 
 button {
